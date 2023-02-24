@@ -1,6 +1,6 @@
 - hosts: all
 
-  taks:
+  tasks:
     - name: Install NTP
       include_role:
         name: geerlingguy.ntp
