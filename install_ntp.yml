@@ -1,6 +1,3 @@
 - hosts: all
-
-  tasks:
-    - name: Install NTP
-      include_role:
-        name: geerlingguy.ntp
+  roles:
+    - role: ypsman.timedatectl
