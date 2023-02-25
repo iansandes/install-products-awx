@@ -1,6 +1,3 @@
 ---
 collections:
   - name: community.postgresql
-
-roles:
-  - name: geerlingguy.postgresql
